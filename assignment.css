@@ -1,8 +1,15 @@
-.paragraph{
-    background-color:red
+body{
+    color:white;
+    background-color:steelblue
 }
 
+#title {
+    font-size: 30px;
+    width: 40%;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
 #defi{
-    background-color: yellow;
     font-family: Arial,Helvetica,sans-serif;
 }
