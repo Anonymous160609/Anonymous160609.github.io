@@ -1,55 +1,82 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<link rel="stylesheet" media="all" href="assessment.css" type="text/css">
+    <title>Assessment One of ABM</title>
+    <link rel="stylesheet" media="all" href="assessment.css" type="text/css">
+    <meta charset="UTF-8">
 </head>
 
 <body>
-    <div id="title">the Assessment of Agent-based Model</div>
-    <div class="paragraph" id="concepts">Code content
+    <div id="title">
         <p>
-            |<br/>
-            |__model.py<br/>
-            |__agentframework.py<br/>
-            |__webscrewler.py<br/>
-            |__in.text<br/>
-            |__environment.py<br/>
-            |__old_version<br/>
+            the Assessment of Agent-based Model
         </p>
     </div>
-    <div class="paragraph" id="intro">Introduction
-        <p>
-            It is the first attempt in Agent-based Model for me as an urban planner. 
-            I tended to understand and explain the process of urbanization as 
-            "an instance of temporal-serial signals of individual person". 
-            Now I can fairly and confidently say that urbanization can be systematically modeled by ABM:
-            In essence it is the interaction of agents (residents) within the envionemnt (cities). 
-            A continue study in ABM would definately improve my capabilities to understand complicated urban planning concepts and processes.
-        </p>
+
+    <div class="paragraph" id="intro">
+        Introduction:
+            <p>
+                It is the first attempt in Agent-based Model for me as an urban planner. 
+                I tended to understand and explain the process of urbanization as 
+                "an instance of temporal-serial signals of individual person". 
+                Now I can fairly and confidently say that urbanization can be systematically modeled by ABM:
+                In essence it is the interaction of agents (residents) within the envionemnt (cities). 
+                A continue study in ABM would definately improve my capabilities to understand 
+                complicated urban planning concepts and processes.
+            </p>
     </div>
-    <div class="paragraph" id="defi">Defination of ABM
-        <p>
-            Agent-based Model simulates individual bodies' (agents) movements and interactions within in a given environment (wiki). 
-            It emphasizes randomness in each interaction and helps understand detailed, specific situations which would not be examinated and discussed by triditioanl methodologies e.g. regression. 
-        </p>
+
+    <div class="paragraph" id="brief">
+        Brief of the Code:
+            <p>
+                It is an agent-based model including animated displays, real-time statistics in model , 
+                and parameter passings in interface. 
+                For a defined duration it simulates the movements of sheep and wolf, 
+                as well as their interactions between with grassland.
+                Sheep and wolf will move around grassland. Sheep can consume and store grass, 
+                then average their grass sotre with other sheep nearby.
+                Wolf can prey sheep, turn their colours into red, and stop movements of sheep.
+                <br/> 
+                <br/>
+                Initializing the model.py in spyder, it will show its UI. 
+                Users can input parameters in the left panel then confirm and/or run model through buttons.
+                When it runs, it is expected to show interactions between sheep, wolf, and grassland, 
+                both in form of animation and statistics.
+            </p>
     </div>
-    <div class="paragraph" id="brief">Brief of the Code<p>
-        It is an agent-based model including animated displays, real-time statistics in model , and parameter passings in interface. 
-        It simulates the movements of sheep and wolf, as well as  and grassland for a duration.
-        Sheep and wolf can move around grassland. Sheep can consume and store grass, 
-        can also average their grass sotre with nearly individuals.
-        Wolf can prey sheep, turn their colour into red, and stop sheep moving. 
-        Initializing the model.py in spyder, it will show its UI. 
-        Users can input parameters in the left panel then confirm through button, 
-        else click "run" to start with initial parameters.
-        When it runs, it is expected to show interactions between sheep wolf grassland, 
-        and changes grassland, grass, and sheep corps by users,
-        both in form of animation and statistics.
 
-    </p></div>
-    <div class="paragraph" id="concepts">concepts of ABM in Python</div>
+    <div class="paragraph" id="defi">
+        Defination of ABM:
+            <p>
+                Agent-based Model simulates individual bodies' (agents') movements 
+                and interactions within in a given environment (wiki). 
+                It emphasizes randomness in each interaction and helps understand detailed, 
+                specific situations which would not be examinated and discussed 
+                by triditioanl methodologies e.g. regression. 
+            </p>
+    </div>
 
-
-        </p>
+    <div class="paragraph" id="content">
+        Code Repository: 
+        <br/>
+        <a href = "https://github.com/Anonymous160609/Agent_based_Model_GEOG5990">
+        https://github.com/Anonymous160609/
+        <br/>
+        Agent_based_Model_GEOG5990
+        </a>
+        <br/>
+        <br/>
+        Code content:
+        <br/>
+        |__model.py<br/>
+        |__agentframework.py<br/>
+        |__webscrewler.py<br/>
+        |__in.text<br/>
+        |__environment.py<br/>
+        |__old_version<br/>
+        <br/>
+    </div>
 </body>
+
 </html>
